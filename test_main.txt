@@ -1,0 +1,23 @@
+>>> from main import User
+>>> from main import palindromo
+
+>>> palindromo('Anita lava la tina')
+True
+
+>>> palindromo('Unitest')
+False
+
+>>> sentence = 'Oso'
+>>> palindromo(sentence)
+True
+
+>>> username = 'Minaya'
+>>> password = 'password1234'
+
+>>> user = User(username, password)
+
+>>> user.username == username
+True
+
+>>> user.password == password
+True
